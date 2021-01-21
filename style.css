@@ -34,7 +34,6 @@ main {
 }
 
 .first .title-paragraph {
-  background-color: lightgreen;
   width: 35%;
   height: 80%;
   display: -webkit-box;
@@ -86,12 +85,94 @@ main {
 .first .boxes .box-2 {
   margin-bottom: 4%;
   padding: 5px;
-  margin-left: 4%;
+  margin-left: 5%;
 }
 
 .first .boxes .box-3 {
   margin-bottom: 4%;
   padding: 5px;
-  margin-left: 6%;
+  margin-left: 9%;
+}
+
+.opinions {
+  -webkit-box-sizing: padding-box;
+          box-sizing: padding-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 50vh;
+  /*altura*/
+  width: 85vw;
+  /*anchura*/
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.opinions .box {
+  margin: 10px;
+  padding: 3%;
+  background-color: chocolate;
+  border-radius: 10px;
+  height: 45%;
+  width: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.opinions .box .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 40%;
+}
+
+.opinions .box .header .picture {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background-color: cornflowerblue;
+  width: 20%;
+  margin-right: 3%;
+}
+
+.opinions .box .header .picture .picture-profile {
+  border-radius: 50%;
+}
+
+.opinions .box .header .information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5%;
+}
+
+.opinions .box .opinion {
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+
+#box-2 {
+  margin-top: 3%;
+}
+
+#box-3 {
+  margin-top: 6%;
 }
 /*# sourceMappingURL=style.css.map */

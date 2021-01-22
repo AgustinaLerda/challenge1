@@ -216,5 +216,91 @@ main{
     margin-top: 4%;
 }
 
+@media only screen and (max-width:375px )
+{
 
+    main{
+        padding: 3%;
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+       
+       .first{
+           
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+
+        .title-paragraph
+        {   padding-top: 30px;
+            padding: 20px;
+            width: 95%;
+            height: 35%;
+            .title{
+                font-size: $size-font*0.8;
+                display: block;
+                height: 50%;
+            }
+            .paragraph{
+
+                font-size: $size-font*0.7;
+                display: block;
+            }
+
+        }
+        .boxes{
+            display: flex;
+            flex-direction: column;
+            width: 95%;
+            height: 40%;
+            margin-left:0px;
+                #box-1{
+                    margin-left:0px;
+                }
+                #box-2{
+                    margin-left:0px;
+                }
+                #box-3{
+                    margin-left:0px;
+                }
+            ul{
+                padding:0px;
+            }
+            .box{
+                display: flex;
+                flex-direction: column;
+
+                align-content: center;
+                
+                margin-bottom: 8%;
+                
+
+                width: 90%;
+                height: 25%;
+                .svg{
+                    display: block;
+                    align-self: center;
+                }
+                p{  
+                    margin-top: 3%;
+                    display: block;
+                    align-self: center;
+                    font-size: $size-font*0.5;
+                }
+            }
+        }
+       }
+       .opinions{
+        display: flex;
+        flex-direction: column;
+        width: 95vw;
+        height: 60vh;
+        .box{
+            width: 75%;
+            height:20%;
+            font-size: $size-font*0.7;
+        }
+       }
+    }
+}
 
